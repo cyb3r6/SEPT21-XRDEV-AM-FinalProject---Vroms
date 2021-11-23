@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.8f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-G:/Unity/SEPT21-AM-FINALPROJECT-VRorms
+G:/Unity/GitHub/CS/SEPT21-XRDEV-AM-FinalProject---Vroms/SEPT21-AM-FINALPROJECT-VRorms
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58035
-Successfully changed project path to: G:/Unity/SEPT21-AM-FINALPROJECT-VRorms
-G:/Unity/SEPT21-AM-FINALPROJECT-VRorms
+50437
+Successfully changed project path to: G:/Unity/GitHub/CS/SEPT21-XRDEV-AM-FinalProject---Vroms/SEPT21-AM-FINALPROJECT-VRorms
+G:/Unity/GitHub/CS/SEPT21-XRDEV-AM-FinalProject---Vroms/SEPT21-AM-FINALPROJECT-VRorms
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 54.38 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.93 ms.
+Refreshing native plugins compatible for Editor in 48.53 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.75 ms.
 Initialize engine version: 2020.3.8f1 (507919d4fff5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path G:/Unity/SEPT21-AM-FINALPROJECT-VRorms/Assets
+[Subsystems] Discovering subsystems at path G:/Unity/GitHub/CS/SEPT21-XRDEV-AM-FinalProject---Vroms/SEPT21-AM-FINALPROJECT-VRorms/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,25 +35,25 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002664 seconds.
+Registered in 0.002496 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 47.97 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 49.53 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.577 seconds
+- Completed reload, in  1.898 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002412 seconds.
+Registered in 0.001879 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 49.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 46.89 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -63,10 +63,10 @@ NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
 
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+(Filename: G:/Unity/SEPT21-AM-FINALPROJECT-VRorms/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.868 seconds
+- Completed reload, in  1.692 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -93,9 +93,10 @@ Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Univer
 Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
 Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
-Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
-Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
 Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
@@ -103,312 +104,1374 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
-Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
 Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
 Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
 Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
 Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
-Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
-Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
-Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2314 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 219.5 MB.
-System memory in use after: 219.0 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2779.
-Total: 53.168800 ms (FindLiveObjects: 0.268700 ms CreateObjectMapping: 0.236200 ms MarkObjects: 46.573100 ms  DeleteObjects: 6.088800 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/stylized 3d gun/prefabs/shoot.prefab
-  artifactKey: Guid(f5d5f2baa9d387043ad5e5c5090af003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/stylized 3d gun/prefabs/shoot.prefab using Guid(f5d5f2baa9d387043ad5e5c5090af003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24879b1461695e0ba35ca34067607d8') in 0.194628 seconds
-  Import took 0.237600 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003367 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.261 seconds
-Platform modules already initialized, skipping
 Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
 Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
-Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
 Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
-Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
-Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
-Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
-Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
-Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
-Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
 Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
-Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
-Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
-Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
-Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
-Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
-Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
-Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
-Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
-Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
 Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
-Unloading 2237 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 224.2 MB.
-System memory in use after: 223.7 MB.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2319 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 220.5 MB.
+System memory in use after: 219.9 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2791.
-Total: 6.802900 ms (FindLiveObjects: 0.550800 ms CreateObjectMapping: 0.382100 ms MarkObjects: 4.206400 ms  DeleteObjects: 1.377200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007002 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.360 seconds
-Platform modules already initialized, skipping
-Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
-Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
-Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
-Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
-Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
-Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
-Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
-Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
-Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
-Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
-Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
-Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
-Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
-Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
-Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
-Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
-Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
-Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
-Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
-Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
-Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2237 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 224.3 MB.
-System memory in use after: 223.8 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2795.
-Total: 5.543800 ms (FindLiveObjects: 0.432600 ms CreateObjectMapping: 0.287900 ms MarkObjects: 4.076200 ms  DeleteObjects: 0.745300 ms)
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2785.
+Total: 2.811800 ms (FindLiveObjects: 0.229000 ms CreateObjectMapping: 0.090100 ms MarkObjects: 2.078600 ms  DeleteObjects: 0.413200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 472.598174 seconds.
-  path: Assets/Low Poly FPS Pack - Free (Sample)/Components/Textures_&_Sprites/UI/assault_rifle_01_icon.png
-  artifactKey: Guid(364206cb355dcf7479b2cdec20b8ec68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly FPS Pack - Free (Sample)/Components/Textures_&_Sprites/UI/assault_rifle_01_icon.png using Guid(364206cb355dcf7479b2cdec20b8ec68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7e511292eea39f7e33ea7c5af59350') in 0.202427 seconds
-  Import took 0.207822 seconds .
+  path: Assets/Main Camera Profile.asset
+  artifactKey: Guid(a2c5621595413ca4a81d437f1d534aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Camera Profile.asset using Guid(a2c5621595413ca4a81d437f1d534aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6228b3ccb17a2183499376f8a5ae7753') in 0.037778 seconds
+  Import took 0.040764 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/EffectExamples/Misc Effects/Textures/DustMote.png
-  artifactKey: Guid(394e93ce356b57344903a08ff72fcab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/Misc Effects/Textures/DustMote.png using Guid(394e93ce356b57344903a08ff72fcab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac33b6dfd28ba703f35643a905c7ad7') in 0.035910 seconds
-  Import took 0.041440 seconds .
+  Time since last request: 0.000243 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7354b5bdcad694109f999d8667be3d4b') in 0.004845 seconds
+  Import took 0.054811 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Shared/Sprites/Info.png
-  artifactKey: Guid(2969d90b86698124696637a6df64a112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shared/Sprites/Info.png using Guid(2969d90b86698124696637a6df64a112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5bf9da5a73aa33d244b56048a923c7f') in 0.037668 seconds
-  Import took 0.041719 seconds .
+  Time since last request: 3256.037509 seconds.
+  path: Assets/shark-boi/source
+  artifactKey: Guid(01a0def69237d9a448aefecf71b66878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/source using Guid(01a0def69237d9a448aefecf71b66878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edabe4fe75275815ede42da4aa314f00') in 0.003712 seconds
+  Import took 0.045336 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000624 seconds.
-  path: Assets/VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Ensenasoft inf.psd
-  artifactKey: Guid(5c8fb1f7b6d380248b213aab045a8d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Ensenasoft inf.psd using Guid(5c8fb1f7b6d380248b213aab045a8d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102ea28e7e932833fb7ac25b98550a80') in 0.041894 seconds
-  Import took 0.046066 seconds .
+  Time since last request: 0.048916 seconds.
+  path: Assets/shark-boi/source/Sharkboi_sketchfab.fbx
+  artifactKey: Guid(af1439749a033644ba0dac7e188191f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/source/Sharkboi_sketchfab.fbx using Guid(af1439749a033644ba0dac7e188191f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524b1d0cef90c2fc1983a8fb89333e41') in 0.278133 seconds
+  Import took 0.285743 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Textures_&_Sprites/Weapon_Showcase_Textures/Weapon_Showcase_Shadow_Texture.png
-  artifactKey: Guid(27d10abcb5ddfd84f9ffc5760350e429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Textures_&_Sprites/Weapon_Showcase_Textures/Weapon_Showcase_Shadow_Texture.png using Guid(27d10abcb5ddfd84f9ffc5760350e429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb575ee4b3f8d77d690daf3b448685a') in 0.057540 seconds
-  Import took 0.064742 seconds .
+  Time since last request: 17.372409 seconds.
+  path: Assets/shark-boi/textures/sand_combi_sand_mat_BaseColor.png
+  artifactKey: Guid(a78e3997efad81d46af685cb8fea9662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/textures/sand_combi_sand_mat_BaseColor.png using Guid(a78e3997efad81d46af685cb8fea9662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8dac2f3c4be52678762aa0850cb0c5') in 0.039424 seconds
+  Import took 0.042639 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Ensenasoft VR Hands.psd
-  artifactKey: Guid(1b3c7268e46eaaf4baf444ca8b1b594e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Ensenasoft VR Hands.psd using Guid(1b3c7268e46eaaf4baf444ca8b1b594e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94cd7ad55597a1e3d449528570ac32c') in 0.044686 seconds
-  Import took 0.049333 seconds .
+  Time since last request: 0.000280 seconds.
+  path: Assets/shark-boi/textures/shark_complete_low_main_body_Roughness.png
+  artifactKey: Guid(b12169bd109aa3f4e91c2d6aa8728b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/textures/shark_complete_low_main_body_Roughness.png using Guid(b12169bd109aa3f4e91c2d6aa8728b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e39d355bf5c59a4803336e76f5c45f6') in 0.009905 seconds
+  Import took 0.012930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/shark-boi/textures/shark_complete_low_tongue_BaseColor.png
+  artifactKey: Guid(658f67a005585bb44ba3a144159ff023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/textures/shark_complete_low_tongue_BaseColor.png using Guid(658f67a005585bb44ba3a144159ff023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c789a102bee03e471935fa733287475d') in 0.007508 seconds
+  Import took 0.012087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/shark-boi/textures/shark_complete_low_eyes_BaseColor.png
+  artifactKey: Guid(585f39f85d897fb4db99a4fb96c64d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/textures/shark_complete_low_eyes_BaseColor.png using Guid(585f39f85d897fb4db99a4fb96c64d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6184fa6b9f25056f6b7c2c79024697ec') in 0.008696 seconds
+  Import took 0.014160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/shark-boi/textures/shark_complete_low_teeth_Normal.png
+  artifactKey: Guid(03fb6ce082c366e44ad5681e152cbacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/textures/shark_complete_low_teeth_Normal.png using Guid(03fb6ce082c366e44ad5681e152cbacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88103be5305c555940e1e1826417f66a') in 0.043506 seconds
+  Import took 0.047438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/shark-boi/textures/swimring_low_lambert1_Normal.png
+  artifactKey: Guid(61254fa87c96c6f4da05db8066b09e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/textures/swimring_low_lambert1_Normal.png using Guid(61254fa87c96c6f4da05db8066b09e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d69830ba8692230b2d7d06f8423639e') in 0.009224 seconds
+  Import took 0.012486 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000275 seconds.
-  path: Assets/Shared/Sprites/TitleBorder.png
-  artifactKey: Guid(0a936ae5d70c6c14ab943882f62e0a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shared/Sprites/TitleBorder.png using Guid(0a936ae5d70c6c14ab943882f62e0a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01eb6ccd3c477ef8dffd5443c6e0a526') in 0.066270 seconds
-  Import took 0.070841 seconds .
+  path: Assets/shark-boi/textures/shark_complete_low_teeth_BaseColor.png
+  artifactKey: Guid(c08fa5de174691549b566909f93cbb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/textures/shark_complete_low_teeth_BaseColor.png using Guid(c08fa5de174691549b566909f93cbb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f90a96e2b521420eddecee3e38f28de') in 0.009513 seconds
+  Import took 0.017082 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Low Poly FPS Pack - Free (Sample)/Components/Textures_&_Sprites/UI/handgun_01_icon.png
-  artifactKey: Guid(d6e4dc2ab496ac845a119b14c5abbb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly FPS Pack - Free (Sample)/Components/Textures_&_Sprites/UI/handgun_01_icon.png using Guid(d6e4dc2ab496ac845a119b14c5abbb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c846b93a9c39b0ecfeda02b78f7d20b3') in 0.060340 seconds
-  Import took 0.065392 seconds .
+  Time since last request: 0.000282 seconds.
+  path: Assets/shark-boi/textures/sand_combi_sand_mat_Normal.png
+  artifactKey: Guid(72bb063ebf3ec79498c0eecc4f53fb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/textures/sand_combi_sand_mat_Normal.png using Guid(72bb063ebf3ec79498c0eecc4f53fb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4b8dcdc32480bb1b41d8cf997005f7') in 0.032527 seconds
+  Import took 0.035744 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/EffectExamples/Misc Effects/Textures/DustPuffSmall.png
-  artifactKey: Guid(271edbc011d9e03489f73cef81b2d56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/Misc Effects/Textures/DustPuffSmall.png using Guid(271edbc011d9e03489f73cef81b2d56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e79689866601035693cf6b0bc6806d') in 0.046590 seconds
-  Import took 0.052825 seconds .
+  Time since last request: 0.000191 seconds.
+  path: Assets/shark-boi/textures/shark_complete_low_tongue_Normal.png
+  artifactKey: Guid(b64e01861e1822f4898bf8787ebbf771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/textures/shark_complete_low_tongue_Normal.png using Guid(b64e01861e1822f4898bf8787ebbf771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d4ad10113bf837dc85ef147729b8c5') in 0.008276 seconds
+  Import took 0.011414 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001807 seconds.
-  path: Assets/EffectExamples/Magic Effects/Textures/DustPuffSmall.png
-  artifactKey: Guid(a547fca3b7d596c4d9bcb07a747ec5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/Magic Effects/Textures/DustPuffSmall.png using Guid(a547fca3b7d596c4d9bcb07a747ec5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be22c01c44282d88679014f5c34c6baf') in 0.052282 seconds
-  Import took 0.059327 seconds .
+  Time since last request: 0.000249 seconds.
+  path: Assets/shark-boi/textures/shark_complete_low_main_body_Normal.png
+  artifactKey: Guid(8d43831181cdaa741b51a139c66811bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/textures/shark_complete_low_main_body_Normal.png using Guid(8d43831181cdaa741b51a139c66811bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d6efad741a3739e61c6a2000e5281b') in 0.011035 seconds
+  Import took 0.014958 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000445 seconds.
-  path: Assets/EffectExamples/Weapon Effects/Textures/DustPuffSmallParticleSheet.png
-  artifactKey: Guid(32dde075fa5f86d458327a2ac0c4593b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/Weapon Effects/Textures/DustPuffSmallParticleSheet.png using Guid(32dde075fa5f86d458327a2ac0c4593b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4940e84f18c2b4938f938146ce7e61a') in 0.057792 seconds
-  Import took 0.061659 seconds .
+  Time since last request: 0.002326 seconds.
+  path: Assets/shark-boi/textures/shark_complete_low_main_body_BaseColor.png
+  artifactKey: Guid(a8e7b7587501a444eab387b298907b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/textures/shark_complete_low_main_body_BaseColor.png using Guid(a8e7b7587501a444eab387b298907b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48826411e2f5603efb4385191ab2686') in 0.011269 seconds
+  Import took 0.016088 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Shared/Sprites/UnityLogo.png
-  artifactKey: Guid(e9980ad31e8dba04aa8110ba611c69d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shared/Sprites/UnityLogo.png using Guid(e9980ad31e8dba04aa8110ba611c69d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba3d067e32260374eb508cf4cf88c9d') in 0.059058 seconds
-  Import took 0.062518 seconds .
+  Time since last request: 0.000238 seconds.
+  path: Assets/shark-boi/textures/shark_complete_low_teeth_Roughness.png
+  artifactKey: Guid(e6fc052134ca62e49847c33029056db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/textures/shark_complete_low_teeth_Roughness.png using Guid(e6fc052134ca62e49847c33029056db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec22dfaf0e1879a8cc4fb1c1c0a6232') in 0.008615 seconds
+  Import took 0.012579 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Low Poly FPS Pack - Free (Sample)/Components/Textures_&_Sprites/UI/Grenade_UI_Texture.png
-  artifactKey: Guid(b3e76a068a948184aa9a5ffe4d7c5fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly FPS Pack - Free (Sample)/Components/Textures_&_Sprites/UI/Grenade_UI_Texture.png using Guid(b3e76a068a948184aa9a5ffe4d7c5fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b174bb5237a822a82d4a5a5a266fcb1') in 0.034941 seconds
-  Import took 0.038489 seconds .
+  Time since last request: 0.000269 seconds.
+  path: Assets/shark-boi/textures/swimring_low_lambert1_BaseColor.png
+  artifactKey: Guid(83cc12bbf45c91b4787ced9f845efbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/textures/swimring_low_lambert1_BaseColor.png using Guid(83cc12bbf45c91b4787ced9f845efbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f692028bba11664750552f95d74d811c') in 0.039990 seconds
+  Import took 0.043551 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/EffectExamples/Fire & Explosion Effects/Textures/Debris.png
-  artifactKey: Guid(af1f1b45fa6b5e64894c04ceb8a592f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/Fire & Explosion Effects/Textures/Debris.png using Guid(af1f1b45fa6b5e64894c04ceb8a592f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50278c0d31273acf8aeba92dd9ea44c') in 0.062093 seconds
-  Import took 0.065399 seconds .
+  Time since last request: 0.000609 seconds.
+  path: Assets/shark-boi/textures/swimring_low_lambert1_Roughness.png
+  artifactKey: Guid(3a3d299bc2fa69f4ea5bc5db2ceb1bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/textures/swimring_low_lambert1_Roughness.png using Guid(3a3d299bc2fa69f4ea5bc5db2ceb1bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5c1c231f98d65b7f4899edaa390123') in 0.024598 seconds
+  Import took 0.054103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/shark-boi/textures/sand_combi_sand_mat_Roughness.png
+  artifactKey: Guid(40a085263b23a994b8853dc8487d7fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/textures/sand_combi_sand_mat_Roughness.png using Guid(40a085263b23a994b8853dc8487d7fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dcb5f30f7f7f923c78155940b42533d') in 0.008766 seconds
+  Import took 0.011883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/shark-boi/textures/shark_complete_low_tongue_Roughness.png
+  artifactKey: Guid(e93e83adc7523e4498faf05d31bcd7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/textures/shark_complete_low_tongue_Roughness.png using Guid(e93e83adc7523e4498faf05d31bcd7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181b140d3e24b03b8b33dc67531c5c4c') in 0.007950 seconds
+  Import took 0.011715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.156502 seconds.
+  path: Assets/shark-boi/textures
+  artifactKey: Guid(0e21b215cf4049a46a8f50ec0756853f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/textures using Guid(0e21b215cf4049a46a8f50ec0756853f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec899af6abea8bf8d334b5c037b5f78a') in 0.004051 seconds
+  Import took 0.008059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002535 seconds.
+  path: Assets/shark-boi/textures
+  artifactKey: Guid(0e21b215cf4049a46a8f50ec0756853f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/textures using Guid(0e21b215cf4049a46a8f50ec0756853f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec899af6abea8bf8d334b5c037b5f78a') in 0.007190 seconds
+  Import took 0.011116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.479654 seconds.
+  path: Assets/shark-boi/textures/Sharkboi.mat
+  artifactKey: Guid(3e9f327709e56fb43825d6b4c11a5963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/textures/Sharkboi.mat using Guid(3e9f327709e56fb43825d6b4c11a5963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e4a74eeea76234ccf73d96b42ad627') in 0.045716 seconds
+  Import took 0.048986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.704995 seconds.
+  path: Assets/shark-boi/textures/sand.mat
+  artifactKey: Guid(600be015ec58712429786e4d7aa9036f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/textures/sand.mat using Guid(600be015ec58712429786e4d7aa9036f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e429ce300ef8279a255fc7f5927288a8') in 0.051505 seconds
+  Import took 0.054993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.199065 seconds.
+  path: Assets/shark-boi/textures/sand_combi_sand_mat_Normal.png
+  artifactKey: Guid(72bb063ebf3ec79498c0eecc4f53fb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/textures/sand_combi_sand_mat_Normal.png using Guid(72bb063ebf3ec79498c0eecc4f53fb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f80506464e64d10c939458798245b49') in 0.013165 seconds
+  Import took 0.016556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.209707 seconds.
+  path: Assets/shark-boi/source/eyes.mat
+  artifactKey: Guid(28aa323488cce094e9ec3b666566f414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/source/eyes.mat using Guid(28aa323488cce094e9ec3b666566f414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954d0365b4b5c1a5b4fe0810b8667ca3') in 0.025136 seconds
+  Import took 0.029325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000890 seconds.
+  path: Assets/shark-boi/source/main_body.mat
+  artifactKey: Guid(8028a301587473b4f87bc6de0940b022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/source/main_body.mat using Guid(8028a301587473b4f87bc6de0940b022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1300443d5df823e39102c243ab24035') in 0.066520 seconds
+  Import took 0.078620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/shark-boi/source/waterring.mat
+  artifactKey: Guid(f5835d1e7f9696d4986299a017c016ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/source/waterring.mat using Guid(f5835d1e7f9696d4986299a017c016ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c966ab416f235b054ce7a5bb7e3fdda') in 0.010144 seconds
+  Import took 0.013073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/shark-boi/source/Sharkboi_sketchfab.fbx
+  artifactKey: Guid(af1439749a033644ba0dac7e188191f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/source/Sharkboi_sketchfab.fbx using Guid(af1439749a033644ba0dac7e188191f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af20558fb44d1ea38816d6db872ee333') in 0.073398 seconds
+  Import took 0.077099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/shark-boi/source/teeth.mat
+  artifactKey: Guid(d50ff8366633c5043a7d330996c4709c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/source/teeth.mat using Guid(d50ff8366633c5043a7d330996c4709c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1770f119f805f423e0a398560580b791') in 0.029166 seconds
+  Import took 0.056034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/shark-boi/source/tongue.mat
+  artifactKey: Guid(53d6b3348f90a6046b250c2c2e63c9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/source/tongue.mat using Guid(53d6b3348f90a6046b250c2c2e63c9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac1cdf7341a83a5aa12db19175a2c78') in 0.008661 seconds
+  Import took 0.011776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/shark-boi/source/sand_mat.mat
+  artifactKey: Guid(d2fb8c1568730614898f881e45537051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/source/sand_mat.mat using Guid(d2fb8c1568730614898f881e45537051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed52efafa864c450480e57588e6b937') in 0.018214 seconds
+  Import took 0.021872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.382052 seconds.
+  path: Assets/shark-boi/source/Sharkboi_sketchfab.fbx
+  artifactKey: Guid(af1439749a033644ba0dac7e188191f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shark-boi/source/Sharkboi_sketchfab.fbx using Guid(af1439749a033644ba0dac7e188191f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd088b73248bffb77f0760f54c9a180') in 0.064593 seconds
+  Import took 0.068813 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004014 seconds.
+Registered in 0.062011 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.59 ms.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
 
+(Filename: G:/Unity/SEPT21-AM-FINALPROJECT-VRorms/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.076 seconds
+Platform modules already initialized, skipping
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2242 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.1 MB.
+System memory in use after: 238.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2836.
+Total: 3.711100 ms (FindLiveObjects: 1.187100 ms CreateObjectMapping: 0.185900 ms MarkObjects: 1.940300 ms  DeleteObjects: 0.396900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2798.334542 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(98167a57d8c2a5342956583c1c0841a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(98167a57d8c2a5342956583c1c0841a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4997d8a40078589d2af31020b51e91e2') in 0.094295 seconds
+  Import took 0.101464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012113 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(98167a57d8c2a5342956583c1c0841a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(98167a57d8c2a5342956583c1c0841a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4997d8a40078589d2af31020b51e91e2') in 0.006526 seconds
+  Import took 0.009877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3478.580876 seconds.
+  path: Assets/stylized 3d gun/prefabs/shoot.prefab
+  artifactKey: Guid(f5d5f2baa9d387043ad5e5c5090af003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stylized 3d gun/prefabs/shoot.prefab using Guid(f5d5f2baa9d387043ad5e5c5090af003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56f21a0911549479f0b8fc4ce836ce1') in 0.140640 seconds
+  Import took 0.149206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.690540 seconds.
+  path: Assets/stylized 3d gun/prefabs/shoot.prefab
+  artifactKey: Guid(f5d5f2baa9d387043ad5e5c5090af003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stylized 3d gun/prefabs/shoot.prefab using Guid(f5d5f2baa9d387043ad5e5c5090af003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d93edb9aa66d643021ef273f61eedc8') in 0.019869 seconds
+  Import took 0.023400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.264734 seconds.
+  path: Assets/stylized 3d gun/prefabs/shoot.prefab
+  artifactKey: Guid(f5d5f2baa9d387043ad5e5c5090af003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stylized 3d gun/prefabs/shoot.prefab using Guid(f5d5f2baa9d387043ad5e5c5090af003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546b1c5a36054f7b9a0dec302c746f05') in 0.039152 seconds
+  Import took 0.049247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.636959 seconds.
+  path: Assets/stylized 3d gun/prefabs/shoot.prefab
+  artifactKey: Guid(f5d5f2baa9d387043ad5e5c5090af003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stylized 3d gun/prefabs/shoot.prefab using Guid(f5d5f2baa9d387043ad5e5c5090af003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e307345f17a40145f645cbc458e1c9a4') in 0.021233 seconds
+  Import took 0.025640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.054629 seconds.
+  path: Assets/stylized 3d gun/prefabs/shoot.prefab
+  artifactKey: Guid(f5d5f2baa9d387043ad5e5c5090af003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stylized 3d gun/prefabs/shoot.prefab using Guid(f5d5f2baa9d387043ad5e5c5090af003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2493174c5dddaf49457a0ed88394b61') in 0.015835 seconds
+  Import took 0.019378 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002521 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: G:/Unity/SEPT21-AM-FINALPROJECT-VRorms/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.006 seconds
+Platform modules already initialized, skipping
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2242 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.2 MB.
+System memory in use after: 238.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2842.
+Total: 2.649900 ms (FindLiveObjects: 0.225000 ms CreateObjectMapping: 0.088600 ms MarkObjects: 1.916500 ms  DeleteObjects: 0.418700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 458.019604 seconds.
+  path: Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Example_Prefabs/Casing_Prefabs/Big_Casing_Prefab.prefab
+  artifactKey: Guid(7be59128a5ee3424faf33d7a408c0b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Example_Prefabs/Casing_Prefabs/Big_Casing_Prefab.prefab using Guid(7be59128a5ee3424faf33d7a408c0b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a045a81e6c755eef63d7fecc8e0957c') in 0.890261 seconds
+  Import took 0.893894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Example_Prefabs/Casing_Prefabs/Small_Casing_Prefab.prefab
+  artifactKey: Guid(b1995a53a949fac4db5722fc1df9efe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Example_Prefabs/Casing_Prefabs/Small_Casing_Prefab.prefab using Guid(b1995a53a949fac4db5722fc1df9efe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2957b01369f89d63c3a455490b4bbbcf') in 0.153773 seconds
+  Import took 0.156874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.753088 seconds.
+  path: Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Example_Prefabs/Bullet_Impacts/Metal Impact Prefab.prefab
+  artifactKey: Guid(79927c6543a058b4383885fac101fe2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Example_Prefabs/Bullet_Impacts/Metal Impact Prefab.prefab using Guid(79927c6543a058b4383885fac101fe2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91607dbac2a561e0f016019a9e9bc45') in 0.458250 seconds
+  Import took 0.461585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.353143 seconds.
+  path: Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Example_Prefabs/Arms/Assault_Rifle_01_Example_Prefab/Assault_Rifle_01_FPSController.prefab
+  artifactKey: Guid(b9ca752c3df4dec4cadafd04fc5d444b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Example_Prefabs/Arms/Assault_Rifle_01_Example_Prefab/Assault_Rifle_01_FPSController.prefab using Guid(b9ca752c3df4dec4cadafd04fc5d444b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb06357ebdbd52bee77d0a4903f8809') in 1.740671 seconds
+  Import took 1.789225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.166203 seconds.
+  path: Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Example_Prefabs/Arms/Handgun_01_Example_Prefab/Handgun_01_FPSController.prefab
+  artifactKey: Guid(c24fed9fa91f7634fbc8e5e12405008e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Example_Prefabs/Arms/Handgun_01_Example_Prefab/Handgun_01_FPSController.prefab using Guid(c24fed9fa91f7634fbc8e5e12405008e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf317f7c798cf11da75399cbeade028') in 0.391857 seconds
+  Import took 0.397468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.681885 seconds.
+  path: Assets/VR/DockZone.cs
+  artifactKey: Guid(0bcdbbb7153ef5448832c5f6cf59bcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/DockZone.cs using Guid(0bcdbbb7153ef5448832c5f6cf59bcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a48391aef26bbfa267bc86bb2e0b65') in 0.016809 seconds
+  Import took 0.022832 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002109 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: G:/Unity/SEPT21-AM-FINALPROJECT-VRorms/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.192 seconds
+Platform modules already initialized, skipping
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2242 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.5 MB.
+System memory in use after: 239.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2851.
+Total: 2.900700 ms (FindLiveObjects: 0.240400 ms CreateObjectMapping: 0.102000 ms MarkObjects: 2.096100 ms  DeleteObjects: 0.461100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 580.959318 seconds.
+  path: Assets/VR/GrabbableInTrigger.cs
+  artifactKey: Guid(0f7016ead72410a45a1e835d521153c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/GrabbableInTrigger.cs using Guid(0f7016ead72410a45a1e835d521153c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726d96431965da6bfe88bf1d3a9dbffc') in 0.006087 seconds
+  Import took 0.009957 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004227 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: G:/Unity/SEPT21-AM-FINALPROJECT-VRorms/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.224 seconds
+Platform modules already initialized, skipping
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2242 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.5 MB.
+System memory in use after: 239.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2855.
+Total: 3.044900 ms (FindLiveObjects: 0.318900 ms CreateObjectMapping: 0.173600 ms MarkObjects: 2.087300 ms  DeleteObjects: 0.463700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002260 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: G:/Unity/SEPT21-AM-FINALPROJECT-VRorms/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.361 seconds
+Platform modules already initialized, skipping
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2242 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.5 MB.
+System memory in use after: 239.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2859.
+Total: 3.241800 ms (FindLiveObjects: 0.228300 ms CreateObjectMapping: 0.096300 ms MarkObjects: 2.412500 ms  DeleteObjects: 0.503700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004066 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\GitHub\CS\SEPT21-XRDEV-AM-FinalProject---Vroms\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\GitHub\CS\SEPT21-XRDEV-AM-FinalProject---Vroms\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.655 seconds
+- Completed reload, in  2.830 seconds
+Platform modules already initialized, skipping
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 2.39 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 2253 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.3 MB.
+System memory in use after: 240.8 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2877.
+Total: 5.019800 ms (FindLiveObjects: 0.619200 ms CreateObjectMapping: 0.129200 ms MarkObjects: 3.612100 ms  DeleteObjects: 0.657600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003983 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\GitHub\CS\SEPT21-XRDEV-AM-FinalProject---Vroms\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\GitHub\CS\SEPT21-XRDEV-AM-FinalProject---Vroms\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.215 seconds
+Platform modules already initialized, skipping
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2252 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.0 MB.
+System memory in use after: 240.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2881.
+Total: 3.265000 ms (FindLiveObjects: 0.269900 ms CreateObjectMapping: 0.104000 ms MarkObjects: 2.339100 ms  DeleteObjects: 0.550700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003605 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\GitHub\CS\SEPT21-XRDEV-AM-FinalProject---Vroms\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\GitHub\CS\SEPT21-XRDEV-AM-FinalProject---Vroms\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.324 seconds
+Platform modules already initialized, skipping
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2252 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.0 MB.
+System memory in use after: 240.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2885.
+Total: 4.215300 ms (FindLiveObjects: 0.436700 ms CreateObjectMapping: 0.151000 ms MarkObjects: 2.976700 ms  DeleteObjects: 0.648800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004603 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\GitHub\CS\SEPT21-XRDEV-AM-FinalProject---Vroms\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\GitHub\CS\SEPT21-XRDEV-AM-FinalProject---Vroms\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.242 seconds
+Platform modules already initialized, skipping
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2252 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.0 MB.
+System memory in use after: 240.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2889.
+Total: 3.393600 ms (FindLiveObjects: 0.257900 ms CreateObjectMapping: 0.154000 ms MarkObjects: 2.423600 ms  DeleteObjects: 0.556800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003068 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\GitHub\CS\SEPT21-XRDEV-AM-FinalProject---Vroms\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\GitHub\CS\SEPT21-XRDEV-AM-FinalProject---Vroms\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.150 seconds
+Platform modules already initialized, skipping
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2252 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.0 MB.
+System memory in use after: 240.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2893.
+Total: 4.031000 ms (FindLiveObjects: 0.372700 ms CreateObjectMapping: 0.167100 ms MarkObjects: 2.828800 ms  DeleteObjects: 0.661000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005487 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\GitHub\CS\SEPT21-XRDEV-AM-FinalProject---Vroms\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\GitHub\CS\SEPT21-XRDEV-AM-FinalProject---Vroms\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.149 seconds
+Platform modules already initialized, skipping
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2252 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.0 MB.
+System memory in use after: 240.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2897.
+Total: 3.166100 ms (FindLiveObjects: 0.225000 ms CreateObjectMapping: 0.093600 ms MarkObjects: 2.205600 ms  DeleteObjects: 0.640400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005001 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\GitHub\CS\SEPT21-XRDEV-AM-FinalProject---Vroms\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\GitHub\CS\SEPT21-XRDEV-AM-FinalProject---Vroms\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.191 seconds
+Platform modules already initialized, skipping
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2252 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.0 MB.
+System memory in use after: 240.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2901.
+Total: 3.240600 ms (FindLiveObjects: 0.333300 ms CreateObjectMapping: 0.145400 ms MarkObjects: 2.259000 ms  DeleteObjects: 0.501600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004078 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\GitHub\CS\SEPT21-XRDEV-AM-FinalProject---Vroms\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\GitHub\CS\SEPT21-XRDEV-AM-FinalProject---Vroms\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.257 seconds
+Platform modules already initialized, skipping
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2252 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.1 MB.
+System memory in use after: 240.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2905.
+Total: 3.376700 ms (FindLiveObjects: 0.323900 ms CreateObjectMapping: 0.127700 ms MarkObjects: 2.416100 ms  DeleteObjects: 0.508000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012747 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\GitHub\CS\SEPT21-XRDEV-AM-FinalProject---Vroms\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\GitHub\CS\SEPT21-XRDEV-AM-FinalProject---Vroms\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.165 seconds
 Platform modules already initialized, skipping
 Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
 Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
@@ -438,10 +1501,99 @@ Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Ren
 Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
 Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
 Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
-Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2252 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.1 MB.
+System memory in use after: 240.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2909.
+Total: 4.071000 ms (FindLiveObjects: 0.372000 ms CreateObjectMapping: 0.204600 ms MarkObjects: 2.921600 ms  DeleteObjects: 0.570900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 11458.958528 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.8/Default Input Actions/XRI Default Continuous Move.preset
+  artifactKey: Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.8/Default Input Actions/XRI Default Continuous Move.preset using Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbcd3ff63fcd09b3be425163d5c9845') in 0.719383 seconds
+  Import took 0.748235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.8/Default Input Actions/XRI Default Left Controller.preset
+  artifactKey: Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.8/Default Input Actions/XRI Default Left Controller.preset using Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd5147fac95f957b370d29f0afe3119') in 0.047137 seconds
+  Import took 0.051603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.8/Default Input Actions/XRI Default Snap Turn.preset
+  artifactKey: Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.8/Default Input Actions/XRI Default Snap Turn.preset using Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698c7e2c2901237432c76581133fb1f1') in 0.036143 seconds
+  Import took 0.052638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.8/Default Input Actions/XRI Default Input Actions.inputactions
+  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.8/Default Input Actions/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a70639d837826f8a6e5f55d227bfe7a') in 0.019964 seconds
+  Import took 0.037202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.8/Default Input Actions/XRI Default Continuous Turn.preset
+  artifactKey: Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.8/Default Input Actions/XRI Default Continuous Turn.preset using Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e039f96452fb154a4fabce180b317f') in 0.033606 seconds
+  Import took 0.052762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.8/Default Input Actions/XRI Default Right Controller.preset
+  artifactKey: Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.8/Default Input Actions/XRI Default Right Controller.preset using Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c535d499cc3f394b161a582cab7b97') in 0.025060 seconds
+  Import took 0.042360 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008674 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\GitHub\CS\SEPT21-XRDEV-AM-FinalProject---Vroms\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\GitHub\CS\SEPT21-XRDEV-AM-FinalProject---Vroms\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.152 seconds
+Platform modules already initialized, skipping
 Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
 Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
 Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
@@ -453,16 +1605,268 @@ WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
 Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2252 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.1 MB.
+System memory in use after: 240.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2913.
+Total: 3.965900 ms (FindLiveObjects: 0.342400 ms CreateObjectMapping: 0.121800 ms MarkObjects: 2.904400 ms  DeleteObjects: 0.595200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003090 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\GitHub\CS\SEPT21-XRDEV-AM-FinalProject---Vroms\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\GitHub\CS\SEPT21-XRDEV-AM-FinalProject---Vroms\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.151 seconds
+Platform modules already initialized, skipping
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
 Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.48 ms.
-Unloading 2237 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 224.3 MB.
-System memory in use after: 223.8 MB.
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2252 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.1 MB.
+System memory in use after: 240.6 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2808.
-Total: 4.985100 ms (FindLiveObjects: 0.427100 ms CreateObjectMapping: 0.222600 ms MarkObjects: 3.728700 ms  DeleteObjects: 0.605100 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2917.
+Total: 5.690600 ms (FindLiveObjects: 0.631700 ms CreateObjectMapping: 0.306600 ms MarkObjects: 3.719100 ms  DeleteObjects: 1.031800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003273 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\GitHub\CS\SEPT21-XRDEV-AM-FinalProject---Vroms\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\GitHub\CS\SEPT21-XRDEV-AM-FinalProject---Vroms\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.330 seconds
+Platform modules already initialized, skipping
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2252 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.1 MB.
+System memory in use after: 240.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2921.
+Total: 4.618100 ms (FindLiveObjects: 0.364100 ms CreateObjectMapping: 0.169900 ms MarkObjects: 3.298800 ms  DeleteObjects: 0.783700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005370 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\GitHub\CS\SEPT21-XRDEV-AM-FinalProject---Vroms\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\GitHub\CS\SEPT21-XRDEV-AM-FinalProject---Vroms\SEPT21-AM-FINALPROJECT-VRorms\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.402 seconds
+Platform modules already initialized, skipping
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Digger/URP/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapShader' shader 'Digger/URP/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'Digger/HDRP/Mesh/Lit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Hidden/Digger/URP/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/URP/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/URP/Mesh-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'TerrainShader' shader 'Universal Render Pipeline/Terrain/Lit' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/URP/Mesh-Pass0': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2252 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.1 MB.
+System memory in use after: 240.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2925.
+Total: 3.218000 ms (FindLiveObjects: 0.270400 ms CreateObjectMapping: 0.103500 ms MarkObjects: 2.365300 ms  DeleteObjects: 0.477400 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
